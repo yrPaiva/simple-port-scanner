@@ -10,14 +10,15 @@ Projeto em Python para varrer portas TCP e identificar serviços potencialmente 
 ## Como usar
 
 1. Clone o repositório e entre na pasta:
+   ```bash
    git clone <repo-url>
    cd simple-port-scanner
 
-2. Crie o ambiente virtual:
+3. Crie o ambiente virtual:
     ```bash
     python -m venv .venv
 
-3. Ative o ambiente virtual
+4. Ative o ambiente virtual
     ```bash
     PowerShell:
         .\.venv\Scripts\Activate.ps1
@@ -28,11 +29,11 @@ Projeto em Python para varrer portas TCP e identificar serviços potencialmente 
     Bash / WSL / macOS / Linux:
         source .venv/bin/activate
 
-4. Instale as dependências: 
+5. Instale as dependências: 
     ```bash
     pip install -r requirements.txt
 
-5. Execute o script principal:
+6. Execute o script principal:
     ```bash
     python src/main.py <host> -p 1-1024 -t 0.3
 
@@ -40,6 +41,6 @@ Projeto em Python para varrer portas TCP e identificar serviços potencialmente 
         -p: portas (ex.: 22,80,443 ou 1-1000)
         -t: timeout de conexão (segundos)
 
-6. Executar testes (opicional):
+7. Executar testes (opicional):
     ```bash
     pytest
