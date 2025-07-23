@@ -11,7 +11,7 @@ Projeto em Python para varrer portas TCP e identificar serviços potencialmente 
 
 1. Clone o repositório e entre na pasta:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/yrPaiva/simple-port-scanner.git
    cd simple-port-scanner
 
 3. Crie o ambiente virtual:
