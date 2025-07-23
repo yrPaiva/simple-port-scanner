@@ -1,0 +1,8 @@
+{
+  "21":  "FTP (pode permitir brute-force e transferência insegura)",
+  "22":  "SSH (atentar para versões antigas e força bruta)",
+  "23":  "Telnet (texto puro, inseguro)",
+  "69":  "TFTP (sem autenticação)",
+  "1433":"Microsoft SQL Server (busca exploitable CVEs)",
+  "3306":"MySQL (versões antigas com credenciais fracas)"
+}
