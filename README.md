@@ -28,7 +28,7 @@ Projeto em Python para varrer portas TCP e identificar serviços potencialmente 
     Bash / WSL / macOS / Linux:
         source .venv/bin/activate
 
-4. Instale as dependências (opcional): 
+4. Instale as dependências: 
     ```bash
     pip install -r requirements.txt
 
